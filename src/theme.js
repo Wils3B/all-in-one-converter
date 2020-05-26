@@ -1,4 +1,3 @@
-
 import { red, blue, pink } from '@material-ui/core/colors';
 import { createMuiTheme } from '@material-ui/core/styles';
 
