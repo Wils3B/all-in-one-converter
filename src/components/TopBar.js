@@ -4,7 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import BrightnessHighIcon from '@material-ui/icons/BrightnessHigh';
-import BrightnessLowIcon from '@material-ui/icons/BrightnessLow';
+import BrightnessMiddleIcon from '@material-ui/icons/BrightnessMedium';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TranslateIcon from '@material-ui/icons/Translate';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -44,7 +44,7 @@ export default function TopBar() {
             English
           </Button>
           <IconButton color="inherit" onClick={themeStyle.toggleTheme}>
-            {themeStyle.name === 'light' ? <BrightnessLowIcon /> : <BrightnessHighIcon />}
+            {themeStyle.name === 'light' ? <BrightnessMiddleIcon /> : <BrightnessHighIcon />}
           </IconButton>
           <IconButton color="inherit">
             <GitHubIcon />
