@@ -46,7 +46,12 @@ export default function TopBar() {
           <IconButton color="inherit" onClick={themeStyle.toggleTheme}>
             {themeStyle.name === 'light' ? <BrightnessMiddleIcon /> : <BrightnessHighIcon />}
           </IconButton>
-          <IconButton color="inherit">
+          <IconButton
+            color="inherit"
+            href="https://github.com/Wils3B/all-in-one-converter"
+            target="_blank"
+            rel="noopener"
+          >
             <GitHubIcon />
           </IconButton>
         </Toolbar>
