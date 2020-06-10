@@ -1,0 +1,22 @@
+{
+  "angles": {
+    "base": "degree",
+    "units": [
+      {
+        "name": "degree",
+        "shortName": "deg",
+        "value": 1
+      },
+      {
+        "name": "radian",
+        "shortName": "rad",
+        "value": 0.017453293
+      },
+      {
+        "name": "gradian",
+        "shortName": "grad",
+        "value": 1.111111111
+      }
+    ]
+  }
+}
