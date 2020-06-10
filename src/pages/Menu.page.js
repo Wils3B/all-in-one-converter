@@ -34,28 +34,28 @@ export default function Menu(props) {
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="CURRENCY" image={CurrencyImage} />
+          <ConverterCard text="CURRENCY" image={CurrencyImage} to="/currency" />
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="ANGLES" image={AnglesImage} />
+          <ConverterCard text="ANGLES" image={AnglesImage} to="/angles" />
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="LENGTHS" image={LenghtsImage} />
+          <ConverterCard text="LENGTHS" image={LenghtsImage} to="/lenghts" />
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="AREAS" image={SurfacesImage} />
+          <ConverterCard text="AREAS" image={SurfacesImage} to="/areas" />
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="VOLUMES" image={VolumesImage} />
+          <ConverterCard text="VOLUMES" image={VolumesImage} to="/volumes" />
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="WEIGHTS" image={WeightImage} />
+          <ConverterCard text="WEIGHTS" image={WeightImage} to="/weights" />
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="TEMPERATURES" image={TemperaturesImage} />
+          <ConverterCard text="TEMPERATURES" image={TemperaturesImage} to="/temperatures" />
         </Grid>
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-          <ConverterCard text="DIGITAL MEMORY" image={MemoryImage} />
+          <ConverterCard text="DIGITAL MEMORY" image={MemoryImage} to="/memory" />
         </Grid>
       </Grid>
     </main>
