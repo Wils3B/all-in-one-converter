@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import { Link } from 'react-router-dom';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
+import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
   block: {
@@ -39,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 export default function ConverterCard(props) {
   const classes = useStyles(props);
   return (
-    <Link to="/currency" className={classes.block}>
+    <Link to={props.to} className={classes.block}>
       <Paper className={`${classes.cardPaper}`}>
         <ButtonBase className={classes.cardButton}>
           <Typography variant="h5" component="span" color="white" className="buttonText">
@@ -50,3 +51,9 @@ export default function ConverterCard(props) {
     </Link>
   );
 }
+
+ConverterCard.propTypes = {
+  to: PropTypes.string,
+  text: PropTypes.string,
+  image: PropTypes.object,
+};
